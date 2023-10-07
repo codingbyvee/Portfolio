@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section with a background image */
+.header {
+    background-image: url('b.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed for your design */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Style the text content in the header */
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background color */
+    padding: 20px;
+}
+
+/* Style the heading (your name) */
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style the subheading (your profession) */
+.header p {
+    font-size: 1.5rem;
+}
+
+
+/* Custom CSS for changing navbar colors */
+/* Custom CSS for Bootstrap 5 Navbar */
+
+/* Navbar background color */
+.navbar {
+    background-color: #168038;
+}
+
+/* Navbar text and link color */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Navbar link hover color */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(69, 4, 41);
+}
+
+/* Navbar active link color */
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+    color: #00f;
+}
+
+/* Hamburger menu icon color */
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Navbar brand (logo) color */
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+/* Navbar brand hover color */
+.navbar-dark .navbar-brand:hover {
+    color: #f00;
+}
+
+.table table-striped table-borderless tbody tr:nth-of-type(odd) {
+    background-color: #333;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: red; /* Change the color to your desired color */
+}
+
+.card-deck{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+}
+
